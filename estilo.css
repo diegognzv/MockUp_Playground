@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+#logo{
+  width: 120px;
+  height: 50px;
+  position: absolute;
+  background-image: url(logo.png);
+  margin-left: 62px;
+  margin-top: 65px;
+  background-size: contain;
+  background-position: center;
+}
+
+.izquierda {
+  
+  background: -webkit-linear-gradient(20deg to bottom right);
+  background-color: #DB5461;
+  color: white;
+  height: 100vh;
+  width: 50%;
+  clip-path: polygon(0 0, calc(100% - 10vh) 0, 100% 100%, 0 100%);
+		-webkit-clip-path: polygon(0 0, calc(100% - 10vh) 0, 100% 100%, 0 100%);
+    margin-right: -5.2vh;
+  margin-left:0;
+
+}
+
+.derecha {
+  
+  background-image: url(figma_bg.jpeg);
+  background-size: cover;
+  background-position: center;
+  width: 59%;
+  height: 100vh;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, calc(0% + 10vh) 100%);
+		-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, calc(0% + 10vh) 100%);
+		margin-left: -5.2vh;
+
+}
+
+ul.menu {
+    list-style: none;
+    margin-top: 10%;
+    margin-left: 30%;
+}
+
+ul.menu li {
+        float: left;
+        padding: 7px;
+        padding-right: 12px;
+        padding-left: 12px;
+        text-decoration: none;
+        background-color: white;
+        color: #30343F;
+
+}
+
+#button1 {
+    border: 3px solid #30343F;
+    border-radius: 15px;
+    margin-left: 10%;
+    padding: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#pantalla-dividida {
+  display: flex;
+}
+
+.digitalise {
+  color: #30343F;
+}
+
+.we {
+  font-size: 30px;
+  margin-left: 10%;
+  margin-top: 40%;
+}
+
+footer {
+    background-color: #30343F;
+    height: 100px;
+    width: 100%;
+    color: #FFFFFF;
+}
+
+.clientes {
+    float: right;
+}
+
+.contenedor {
+    background-color: #FFFFFF;
+    width: 700px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.uno {
+    background-color: #DB5461;;
+
+}
+
+.dos {
+    background-color: #30343F;
+}
+.box {
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    flex-direction: row;
+
+
+  }
+.box1 {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 auto;
+    align: left;
+    font;
+    
+  }
+
+.image {
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+}
+
+
+/* MOVIL */    
+@media (mi-witdh:400px){
+
+  
+
+}
+
+/*TABLET*/
+@media (min-witdh:768px){
+
+}
+
+/*COMPUTADOR*/
+@media (min-witdh:1024px){
+
+}
